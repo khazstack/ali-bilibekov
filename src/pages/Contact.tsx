@@ -103,12 +103,12 @@ const Contact = () => {
               Портфолио
             </p>
             <a
-              href="https://instagram.com/khazstack"
+              href="https://www.instagram.com/khazstack?igsh=eWtrbzJjYXczbHBk"
               target="_blank"
               rel="noopener noreferrer"
               style={{ fontSize: 13, letterSpacing: "0.1em", color: "rgba(255,255,255,0.8)", textDecoration: "none" }}
             >
-              instagram.com/khazstack
+              khazstack
             </a>
             <p style={{ fontSize: 10, color: "rgba(255,255,255,0.3)", marginTop: 4, letterSpacing: "0.05em" }}>
               все работы · роли · съёмки
