@@ -1,5 +1,6 @@
 import type { MediaItem } from "@/components/ui/infinite-gallery"
 
+import aliRifle from "@/assets/main/ali_new_first.jpg"
 import ali1 from "@/assets/main/ali1.jpg"
 import ali2 from "@/assets/main/ali2.jpg"
 import ali3 from "@/assets/main/ali3.jpg"
@@ -22,6 +23,7 @@ import ali18 from "@/assets/main/ali18.jpg"
 // width/height below match each photo's real aspect ratio, so the
 // infinite gallery sizes each slide to fit the image exactly (no crop).
 export const galleryImages: MediaItem[] = [
+  { src: aliRifle, width: 952, height: 1269, alt: "Фото Али Билибекова" },
   { src: ali1, width: 1200, height: 1600, alt: "Фото Али Билибекова" },
   { src: ali2, width: 1224, height: 1600, alt: "Фото Али Билибекова" },
   { src: ali3, width: 1200, height: 1600, alt: "Фото Али Билибекова" },
@@ -43,6 +45,7 @@ export const galleryImages: MediaItem[] = [
 ]
 
 export const introImages: string[] = [
+  aliRifle,
   ali1,
   ali9,
   ali5,
