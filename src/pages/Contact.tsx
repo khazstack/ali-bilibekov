@@ -1,6 +1,6 @@
 import TopNav from "@/components/TopNav";
 import contactHero from "@/assets/contact-hero.jpeg";
-import { Instagram, Phone, Clapperboard } from "lucide-react";
+import { Instagram, Phone } from "lucide-react";
 import { useIsMobile } from "@/hooks/use-mobile";
 
 const Contact = () => {
@@ -128,22 +128,6 @@ const Contact = () => {
             </a>
             <span style={{ fontSize: 10, color: "rgba(255,255,255,0.3)", letterSpacing: "0.05em" }}>по вопросам съёмок</span>
           </div>
-        </div>
-
-        {/* Divider */}
-        <div style={{ width: 40, height: 1, background: "rgba(255,255,255,0.2)", marginBottom: isMobile ? 20 : 28 }} />
-
-        {/* Note */}
-        <div style={{ display: "flex", alignItems: "flex-start", gap: 14 }}>
-          <Clapperboard size={16} style={{ marginTop: 2, opacity: 0.35, flexShrink: 0 }} />
-          <p style={{
-            fontSize: 12,
-            letterSpacing: "0.05em",
-            color: "rgba(255,255,255,0.5)",
-            lineHeight: 1.6,
-          }}>
-            {"\n"}
-          </p>
         </div>
       </div>
     </main>
