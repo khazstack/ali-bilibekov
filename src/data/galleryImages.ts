@@ -1,38 +1,64 @@
 import type { MediaItem } from "@/components/ui/infinite-gallery"
 
-import photo1 from "@/assets/photo1.jpeg"
-import photo2 from "@/assets/photo2.jpeg"
-import photo3 from "@/assets/photo3.jpeg"
-import photo4 from "@/assets/photo4.jpeg"
-import photo5 from "@/assets/photo5.jpeg"
-import photo6 from "@/assets/photo6.jpeg"
-import photo7 from "@/assets/photo7.jpeg"
-import photo8 from "@/assets/photo8.jpeg"
-import photo9 from "@/assets/photo9.jpeg"
-import photo10 from "@/assets/photo10.jpeg"
+import ali1 from "@/assets/main/ali1.jpg"
+import ali2 from "@/assets/main/ali2.jpg"
+import ali3 from "@/assets/main/ali3.jpg"
+import ali4 from "@/assets/main/ali4.jpg"
+import ali5 from "@/assets/main/ali5.jpg"
+import ali6 from "@/assets/main/ali6.jpg"
+import ali7 from "@/assets/main/ali7.jpg"
+import ali8 from "@/assets/main/ali8.jpg"
+import ali9 from "@/assets/main/ali9.jpg"
+import ali10 from "@/assets/main/ali10.jpg"
+import ali11 from "@/assets/main/ali11.jpg"
+import ali12 from "@/assets/main/ali12.jpg"
+import ali13 from "@/assets/main/ali13.jpg"
+import ali14 from "@/assets/main/ali14.jpg"
+import ali15 from "@/assets/main/ali15.jpg"
+import ali16 from "@/assets/main/ali16.jpg"
+import ali17 from "@/assets/main/ali17.jpg"
+import ali18 from "@/assets/main/ali18.jpg"
 
+// width/height below match each photo's real aspect ratio, so the
+// infinite gallery sizes each slide to fit the image exactly (no crop).
 export const galleryImages: MediaItem[] = [
-  { src: photo1, width: 9, height: 16, alt: "Фото в жёлтом платье" },
-  { src: photo2, width: 9, height: 16, alt: "Фото в ярком кимоно" },
-  { src: photo3, width: 9, height: 16, alt: "Портрет с чёрным цветком" },
-  { src: photo4, width: 16, height: 9, alt: "Фото сверху в кожаной куртке" },
-  { src: photo5, width: 16, height: 9, alt: "Фото в кимоно с поднятыми руками" },
-  { src: photo6, width: 9, height: 16, alt: "Портрет в жёлтом платье" },
-  { src: photo7, width: 9, height: 16, alt: "Портрет за стулом" },
-  { src: photo8, width: 9, height: 16, alt: "Фото в национальном чапане" },
-  { src: photo9, width: 16, height: 9, alt: "Фото сверху в белой рубашке" },
-  { src: photo10, width: 16, height: 9, alt: "Портрет в национальном чапане" },
+  { src: ali1, width: 1200, height: 1600, alt: "Фото Али Билибекова" },
+  { src: ali2, width: 1224, height: 1600, alt: "Фото Али Билибекова" },
+  { src: ali3, width: 1200, height: 1600, alt: "Фото Али Билибекова" },
+  { src: ali4, width: 1200, height: 1600, alt: "Фото Али Билибекова" },
+  { src: ali5, width: 1200, height: 1600, alt: "Фото Али Билибекова" },
+  { src: ali6, width: 1200, height: 1600, alt: "Фото Али Билибекова" },
+  { src: ali7, width: 1200, height: 1600, alt: "Фото Али Билибекова" },
+  { src: ali8, width: 1200, height: 1600, alt: "Фото Али Билибекова" },
+  { src: ali9, width: 1200, height: 1600, alt: "Фото Али Билибекова" },
+  { src: ali10, width: 1200, height: 1600, alt: "Фото Али Билибекова" },
+  { src: ali11, width: 1200, height: 1600, alt: "Фото Али Билибекова" },
+  { src: ali12, width: 1200, height: 1600, alt: "Фото Али Билибекова" },
+  { src: ali13, width: 1200, height: 1600, alt: "Фото Али Билибекова" },
+  { src: ali14, width: 1200, height: 1600, alt: "Фото Али Билибекова" },
+  { src: ali15, width: 1200, height: 1600, alt: "Фото Али Билибекова" },
+  { src: ali16, width: 1200, height: 1600, alt: "Фото Али Билибекова" },
+  { src: ali17, width: 1200, height: 1600, alt: "Фото Али Билибекова" },
+  { src: ali18, width: 1200, height: 1600, alt: "Фото Али Билибекова" },
 ]
 
 export const introImages: string[] = [
-  photo3,
-  photo6,
-  photo2,
-  photo9,
-  photo5,
-  photo7,
-  photo8,
-  photo10,
-  photo4,
-  photo1,
+  ali1,
+  ali9,
+  ali5,
+  ali13,
+  ali2,
+  ali10,
+  ali6,
+  ali14,
+  ali3,
+  ali11,
+  ali7,
+  ali15,
+  ali4,
+  ali12,
+  ali8,
+  ali16,
+  ali17,
+  ali18,
 ]
