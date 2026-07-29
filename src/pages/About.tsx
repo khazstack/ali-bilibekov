@@ -25,7 +25,7 @@ const About = () =>
           Али Билибеков
         </h1>
         <p className="text-[11px] md:text-2xl font-light tracking-[0.2em] md:tracking-[0.3em] uppercase text-white/70 whitespace-nowrap">
-          АКТЁР — МАССОВКА — МОДЕЛЬ
+          АКТЁР — МОДЕЛЬ
         </p>
       </div>
     </section>
