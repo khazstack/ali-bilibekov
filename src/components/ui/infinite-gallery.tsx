@@ -14,7 +14,10 @@ interface InfiniteGalleryProps extends React.HTMLAttributes<HTMLDivElement> {
 }
 
 function calculateWidth(item: MediaItem, viewportHeight: number): number {
-  return (viewportHeight * item.width) / item.height
+  // Round up (+1px overlap) so subpixel rounding never leaves a visible
+  // gap between adjacent slides; the 1px overlap is covered by the
+  // neighboring slide via negative margin below.
+  return Math.ceil((viewportHeight * item.width) / item.height) + 1
 }
 
 const InfiniteGallery = React.forwardRef<HTMLDivElement, InfiniteGalleryProps>(
@@ -147,16 +150,16 @@ const InfiniteGallery = React.forwardRef<HTMLDivElement, InfiniteGalleryProps>(
             className="flex h-full"
             style={{ width: totalWidth }}
           >
-            {repeatedItems.map(({ item, width, key }) => (
+            {repeatedItems.map(({ item, width, key }, i) => (
               <div
                 key={key}
                 className="relative h-full flex-shrink-0"
-                style={{ width }}
+                style={{ width, marginLeft: i === 0 ? 0 : -1 }}
               >
                 <img
                   src={item.src}
                   alt={item.alt ?? ""}
-                  className="h-full w-full object-cover text-lg"
+                  className="h-full w-full object-cover text-lg block"
 
 
                   loading="lazy"
